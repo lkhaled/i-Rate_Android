@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">I-Rate</string>
+    <string name="Restaurant_name">* Restaurant name:</string>
+    <string name="Restaurant_type">* Restaurant Type:</string>
+    <string name="DateandTime">* Date and Time:</string>
+    <string name="meal_price_per_person"> * Meal price per person:</string>
+    <string name="Service_rating">* Service rating:</string>
+    <string name="Service_okay">Okay</string>
+    <string name="Service_good">Good</string>
+    <string name="Service_excellent">Excellent</string>
+    <string name="Cleanliness_rating">* Cleanliness rating:</string>
+    <string name="Cleanliness_okay">Okay</string>
+    <string name="Cleanliness_good">Good</string>
+    <string name="Cleanliness_excellent">Excellent</string>
+    <string name="Food_quality_rating">* Food quality rating:</string>
+    <string name="Food_okay">Okay</string>
+    <string name="Food_good">Good</string>
+    <string name="Food_excellent">Excellent</string>
+    <string name="Notes">Notes</string>
+    <string name="Name_of_reporter">* Name of reporter:</string>
+    <string name="Submit">Submit</string>
+    <string name="Error">Error</string>
+    <string name="Success">Success</string>
+</resources>

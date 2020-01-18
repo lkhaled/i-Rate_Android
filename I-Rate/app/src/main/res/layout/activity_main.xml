@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/RestaurantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Restaurant_name" />
+
+        <EditText
+            android:id="@+id/NameRestaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            />
+
+        <TextView
+            android:id="@+id/RestaurantType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Restaurant_type" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/Dateandtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DateandTime" />
+
+        <DatePicker
+            android:id="@+id/DateandTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            >
+
+        </DatePicker>
+
+        <TextView
+            android:id="@+id/mealprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/meal_price_per_person" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/Servicerating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Service_rating" />
+
+        <RadioButton
+            android:id="@+id/serviceOkay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Service_okay" />
+
+        <RadioButton
+            android:id="@+id/serviceGood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Service_good" />
+
+        <RadioButton
+            android:id="@+id/serviceExcellent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Service_excellent" />
+
+        <TextView
+            android:id="@+id/CleanlinessRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cleanliness_rating" />
+
+        <RadioButton
+            android:id="@+id/cleanOkay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cleanliness_okay" />
+
+        <RadioButton
+            android:id="@+id/cleanGood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cleanliness_good" />
+
+        <RadioButton
+            android:id="@+id/cleanExcellent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cleanliness_excellent" />
+
+        <TextView
+            android:id="@+id/Foodrating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Food_quality_rating" />
+
+        <RadioButton
+            android:id="@+id/foodOkay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Food_okay" />
+
+        <RadioButton
+            android:id="@+id/foodGood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Food_good" />
+
+        <RadioButton
+            android:id="@+id/foodExcellent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Food_excellent" />
+
+        <TextView
+            android:id="@+id/Notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Notes" />
+
+        <EditText
+            android:id="@+id/notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/Reporter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Name_of_reporter" />
+
+        <EditText
+            android:id="@+id/reporter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            />
+
+        <Button
+            android:id="@+id/SubmitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Submit" />
+
+    </LinearLayout>
+</ScrollView>
